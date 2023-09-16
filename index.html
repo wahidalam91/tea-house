@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
 
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/dd610be577.js" crossorigin="anonymous"></script>
+
     <style>
         .font-manrope{
             font-family: 'Manrope', sans-serif;
@@ -20,11 +23,73 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header>
-
+    <header class="container mx-auto">
+        <!-- Banner Section -->
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good <br>
+                tea time at The <br> Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+              <div>
+                <img src="/images/banner.png" class="max-w-sm" />
+                <!-- Rating Badge -->
+                <div class="flex items-center gap-5 drop-shadow-lg bg-white p-4 w-60 -mt-16">
+                    <i class="fa-solid fa-star text-4xl text-amber-400 "></i>
+                    <div>
+                        <h2 class="text-3xl font-bold">5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
     </header>
-    <main>
+    <main class="container mx-auto mt-20">
+        <!-- Feature Section -->
+        <section class="text-center">
+            <h2 class="text-5xl font-extrabold mb-10">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- Featured Tea Card Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- First Card -->
+                <div class="card p-8 bg-base-100 shadow-xl">
+                    <figure><img src="./images/tea-1.png" alt="Tea" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-extrabold text-2xl ">Milk Tea</h2>
+                      <p class="text-[#777777;]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- Second Card -->
+                <div class="card p-8 bg-base-100 shadow-xl">
+                    <figure><img src="./images/tea-2.png" alt="Tea" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-extrabold text-2xl ">Black Tea</h2>
+                      <p class="text-[#777777;]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- Third Card -->
+                <div class="card p-8 bg-base-100 shadow-xl">
+                    <figure><img src="./images/tea-3.png" alt="Tea" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-extrabold text-2xl ">Lemon Tea</h2>
+                      <p class="text-[#777777;]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- Fourth Card -->
+                <div class="card p-8 bg-base-100 shadow-xl">
+                    <figure><img src="./images/tea-4.png" alt="Tea" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="font-extrabold text-2xl ">Green Tea</h2>
+                      <p class="text-[#777777;]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
 
+        </section>
     </main>
     <footer>
 
